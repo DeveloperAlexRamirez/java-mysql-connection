@@ -15,10 +15,19 @@ The workspace contains two folders by default, where:
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
 
-### Primera clase:
+### Menú de opciones:
+<img src="public/menu.png" alt="img-menu"/>
 
-<img src="public/DEMO.png" alt="muestra-proyecto1"/>
+### Create
+<img src="public/create.png" alt="img-create"/>
 
-### Segunda clase:
+### Read
+<img src="public/read.png" alt="img-read"/>
 
-<img src="public/clase2.png" alt="muestra-proyecto2"/>
+### Update
+<img src="public/update.png" alt="img-update"/>
+
+### Delete
+<img src="public/delete.png" alt="img-delete"/>
+
+

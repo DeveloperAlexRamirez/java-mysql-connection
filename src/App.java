@@ -20,7 +20,6 @@ public class App {
         boolean salir = false;
         int opcion = 0;
         String mensaje = "Presione cualquier número para volver al menú principal";
-        String where = "123";
         String queryUpdate = "UPDATE alumnos SET nombre = ?, calificicacion = ?, fecha = now()" + "  "
                 + "WHERE nocontrol = ?";
 
@@ -142,7 +141,22 @@ public class App {
                     opcion = teclado.nextInt();
                     break;
                 case 4:
+
                     System.out.println("«Has seleccionado Delete»");
+
+                    PreparedStatement sentenciaDel = conn.prepareStatement(delete);
+                    Scanner scannerDel = new Scanner(System.in);
+                    System.out.println("Ingrese el numero de control del usuario que desea ELIMINAR: ");
+                    // Aquí comienza a pedir el nocontrol
+                    String nocontrolDel = scannerDel.nextLine();
+                    sentenciaDel.setString(1, nocontrolDel);
+                    sentenciaDel.executeUpdate();
+
+                    System.out.println("\nEl registro se ha eliminado correctamente\n");
+                    System.out.println(mensaje);
+                    opcion = teclado.nextInt();
+
+                    break;
 
                 case 5:
                     System.out.println("Seleccionaste Read");
