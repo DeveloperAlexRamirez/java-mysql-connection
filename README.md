@@ -30,4 +30,9 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### Delete
 <img src="public/delete.png" alt="img-delete"/>
 
+## Demostración final (consola vsc)
+<img src="public/resultado-final-vsc.png" alt="img-final1"/>
 
+## Demostración final (consola propia de linux)
+
+<img src="public/resultado-final-term.png" alt="img-final2"/>
